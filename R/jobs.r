@@ -20,4 +20,4 @@ df_avg <-
     arrange(desc(diff))
 
 # save the data table
-write.csv(df_avg, paste0("raw-data/", paste(Sys.Data(),"ncaa-predictions.csv", sep="-")))
+write.csv(df_avg, paste0("raw-data/", paste(Sys.Date(),"ncaa-predictions.csv", sep="-")))
